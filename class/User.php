@@ -5,7 +5,7 @@ require_once __DIR__ . "/Address.php";
 class User{
 	
 	use Address;
-  // il metodo/propietà privata viene visto solo all'interno della classe
+  // il metodo/propietà privata viene visto solo all'interno della classe.
 	private $name;
 	public $lastname;
 	public $age;
